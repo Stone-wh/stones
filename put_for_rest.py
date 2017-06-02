@@ -5,10 +5,10 @@ import hmac
 import os
 
 
-bucket = 'test20160418'
-operator = 'admin'
+bucket = ''
+operator = ''
+operator_password = ''
 method = 'PUT'
-operator_password = 'weihao123'
 
 GMT_FORMAT = '%a, %d %b %Y %H:%M:%S GMT'
 DATE = datetime.datetime.utcnow().strftime(GMT_FORMAT)

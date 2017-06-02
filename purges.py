@@ -7,9 +7,9 @@ import requests
 import urllib
 
 
-bucket = 'test20160418'
-operator = 'admin'
-password = 'weihao123'
+bucket = ''
+operator = ''
+password = ''
 
 
 GMT_FORMAT = '%a, %d %b %Y %H:%M:%S GMT'

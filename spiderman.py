@@ -5,9 +5,9 @@ import hmac
 import base64
 import json
 
-bucket = 'test20160418'
-operator = 'admin'
-method = 'POST'
+bucket = ''
+operator = ''
+method = ''
 operator_password = 'weihao123'
 
 GMT_FORMAT = '%a, %d %b %Y %H:%M:%S GMT'
