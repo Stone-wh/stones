@@ -9,7 +9,7 @@ import json
 bucket = ''
 operator = ''
 method = ''
-operator_password = 'weihao123'
+operator_password = ''
 
 GMT_FORMAT = '%a, %d %b %Y %H:%M:%S GMT'
 DATE = datetime.datetime.utcnow().strftime(GMT_FORMAT)
