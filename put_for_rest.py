@@ -14,7 +14,7 @@ GMT_FORMAT = '%a, %d %b %Y %H:%M:%S GMT'
 DATE = datetime.datetime.utcnow().strftime(GMT_FORMAT)
 password = hashlib.md5(operator_password.encode('utf-8')).hexdigest()
 
-for root,dirs,files in os.walk('/home/stone/image/',topdown=False):
+for root,dirs,files in os.walk('/home/stone/image/'):
         root = root
             dirs = dirs
                 files = files
